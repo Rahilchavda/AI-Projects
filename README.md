@@ -120,14 +120,16 @@ pip --version
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
 
-3. **Install dependencies** (coming soon)
+3. **Install dependencies**
    ```bash
-   pip install -r requirements.txt
+   # Dependencies will be added as projects are developed
+   # pip install -r requirements.txt
    ```
 
 4. **Set up environment variables**
    ```bash
-   cp .env.example .env
+   # Environment configuration will be added as needed
+   # cp .env.example .env
    # Add your API keys (OpenAI, Hugging Face, etc.)
    ```
 
